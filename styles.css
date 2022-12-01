@@ -4,38 +4,40 @@ body {
 
 h1 {
   color: darkslategray;
-  display: block;
-  margin: auto;
-  width: max-content;
   font-family: Arial, sans-serif;
+  color: darkslategray;
   font-size: xxx-large;
   text-transform: uppercase;
-  padding: 100px;
+  width: fit-content;
+  padding: 75px;
+  margin: auto;
 }
 
-.everything-container {
+.content-container {
   display: flex;
-  width: fit-content;
   margin: auto;
 }
 
 img {
-  border-radius: 25px;
+  border-radius: 2em;
   max-width: 500px;
-  margin-left: -10%;
   z-index: 0;
+  margin: auto auto auto -20%;
 }
 
-h2 {
+p {
+  color: darkslategray;
   font-family: Arial, sans-serif;
-  border-radius: 15px;
+  font-size: x-large;
   padding: 50px;
+  margin: auto;
+}
+
+.text-container {
+  border-radius: 2em;
   background: aliceblue;
-  margin-top: auto;
-  margin-bottom: auto;
-  max-width: 500px;
-  width: fit-content;
   z-index: 1;
+  margin: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */

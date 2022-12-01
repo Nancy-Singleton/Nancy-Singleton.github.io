@@ -1,42 +1,53 @@
+$font: Arial, sans-serif;
+$text-colour: darkslategray;
+$primary-background-colour: palegoldenrod;
+$secondary-background-colour: aliceblue;
+
+@mixin text {
+  color: $text-colour;
+  font-family: $font;
+}
+
+@mixin rounded-corners {
+  border-radius: 2em;
+}
+
 body {
-    background-color: palegoldenrod;
+  background-color: $primary-background-colour;
 }
 
 h1 {
-    color: darkslategray;
-    display: block;
-    margin: auto;
-    width: max-content;
-    font-family: Arial, sans-serif;
-    font-size: xxx-large;
-    text-transform: uppercase;
-    padding: 100px;
+  @include text;
+  color: $text-colour;
+  font-size: xxx-large;
+  text-transform: uppercase;
+  width: fit-content;
+  padding: 75px;
+  margin: auto;
 }
 
-.everything-container {
-    display: flex;
-    width: fit-content;
-    margin: auto;
+.content-container {
+  display: flex;
+  margin: auto;
 }
 
 img {
-    border-radius: 25px;
-    max-width: 500px;
-    margin-left: -10%;
-    z-index: 0;
+  @include rounded-corners;
+  max-width: 500px;
+  z-index: 0;
+  margin: auto auto auto -20%;
 }
 
-h2 {
-    font-family: Arial, sans-serif;
-    border-radius: 15px;
-    padding: 50px;
-    background: aliceblue;
-    margin-top: auto;
-    margin-bottom: auto;
-    max-width: 500px;
-    width: fit-content;
-    z-index: 1;
+p {
+  @include text;
+  font-size: x-large;
+  padding: 50px;
+  margin: auto;
 }
 
 .text-container {
+  @include rounded-corners;
+  background: $secondary-background-colour;
+  z-index: 1;
+  margin: auto;
 }
