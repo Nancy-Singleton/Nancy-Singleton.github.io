@@ -1,3 +1,41 @@
-h1 {
-    color: blue;
+body {
+  background-color: palegoldenrod;
 }
+
+h1 {
+  color: darkslategray;
+  display: block;
+  margin: auto;
+  width: max-content;
+  font-family: Arial, sans-serif;
+  font-size: xxx-large;
+  text-transform: uppercase;
+  padding: 100px;
+}
+
+.everything-container {
+  display: flex;
+  width: fit-content;
+  margin: auto;
+}
+
+img {
+  border-radius: 25px;
+  max-width: 500px;
+  margin-left: -10%;
+  z-index: 0;
+}
+
+h2 {
+  font-family: Arial, sans-serif;
+  border-radius: 15px;
+  padding: 50px;
+  background: aliceblue;
+  margin-top: auto;
+  margin-bottom: auto;
+  max-width: 500px;
+  width: fit-content;
+  z-index: 1;
+}
+
+/*# sourceMappingURL=styles.css.map */
