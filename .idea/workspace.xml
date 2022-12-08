@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73947819-1284-4a03-a3a5-3de598b91642" name="Changes" comment="" />
+    <list default="true" id="73947819-1284-4a03-a3a5-3de598b91642" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/giphy.js" beforeDir="false" afterPath="$PROJECT_DIR$/giphy.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +38,7 @@
       <recent name="C:\Work\Training\Website" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.trending.html">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Website/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -57,8 +60,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.trending.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -75,7 +78,7 @@
       <workItem from="1669904096173" duration="3777000" />
       <workItem from="1669907932059" duration="2500000" />
       <workItem from="1669910492522" duration="20000" />
-      <workItem from="1670508545365" duration="5141000" />
+      <workItem from="1670508545365" duration="7351000" />
     </task>
     <servers />
   </component>

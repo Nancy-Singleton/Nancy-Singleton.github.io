@@ -25,3 +25,20 @@ fetchTrendingGifs(10)
             addIFrameToGifContainerElement(iFrame);
         });
     });
+
+const correctSequence = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', "ArrowLeft", "ArrowRight", "ArrowLeft", "ArrowRight", "KeyB", "KeyA"];
+const correctSequenceSoFar = [];
+
+const isCorrectNextKey = (key) => correctSequence[correctSequenceSoFar.length] == key;
+const isCorrectSequence = () => correctSequenceSoFar.join(",") === correctSequence.join(",");
+
+document.addEventListener('keydown', (event) => {
+    if (isCorrectNextKey(event.code)) {
+        correctSequenceSoFar.push(event.code);
+    } else {
+        correctSequenceSoFar.length = 0;
+    }
+    if (isCorrectSequence()) {
+        alert("Konami");
+    }
+});
