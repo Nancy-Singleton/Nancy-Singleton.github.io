@@ -40,4 +40,11 @@ p {
   margin: auto;
 }
 
+iframe {
+  width: 400px;
+  height: 300px;
+  border: none;
+  padding: 10px;
+}
+
 /*# sourceMappingURL=styles.css.map */
