@@ -1,5 +1,5 @@
 const apiKey = 'tU0E3b2J2wXj0sT2jVpAAbAQqp14NOyl';
-const trendingGifsEndpoint = 'http://api.giphy.com/v1/gifs/trending';
+const trendingGifsEndpoint = 'https://api.giphy.com/v1/gifs/trending';
 
 const fetchTrendingGifs = (n) => fetch(`${trendingGifsEndpoint}?api_key=${apiKey}&limit=${n}`);
 
